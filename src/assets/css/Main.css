@@ -1,0 +1,352 @@
+/*Header NavBar */
+
+.headerLogo {
+  width: 147px;
+}
+
+.navbarBody {
+  display: flex;
+  gap: 40px;
+  align-items: space-around;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  font-size: 14px;
+  color: rgb(73, 72, 72);
+}
+
+.navbarBody div:hover {
+  cursor: pointer;
+  color: #3c7dee;
+}
+
+.link-hover {
+  color: #212121;
+}
+.link-hover:hover {
+  cursor: pointer;
+  color: #3c7dee;
+}
+
+/*Dashboard*/
+.btn-pen {
+  background: none;
+  border: none;
+  color: white;
+}
+/*Common */
+.btn-hover {
+  transition: transform 0.3s ease;
+}
+
+.btn-hover:hover {
+  transform: scale(1.1);
+}
+.bg-red {
+  background-color: rgb(233, 11, 11);
+}
+
+.div-hover {
+  cursor: pointer;
+}
+
+.row-hover:hover {
+  background-color: #e6b8fa;
+  color: white;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.btn-press {
+  transition: transform 0.15s ease;
+}
+
+.btn-press:active {
+  transform: scale(0.8);
+}
+
+.custom-focus:focus {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(13, 14, 14, 0.308);
+}
+.text-red {
+  color: red;
+  border-color: red;
+}
+
+.text-aqua {
+  color: rgb(26, 175, 175);
+}
+
+.horizontal-bar {
+  width: 100%;
+  height: 1px;
+  background-color: #a7b3b8;
+  margin-bottom: 5px;
+}
+
+.monospace {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus {
+  -webkit-text-fill-color: #212529 !important; /* Bootstrap text-dark */
+  caret-color: #212529;
+  box-shadow: 0 0 0px 1000px #f8f9fa inset !important; /* bg-light */
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.formStyle {
+  border: 1px solid #dfe3e6;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  width: 100%;
+  padding: 5px;
+}
+.formStyle2 {
+  border: 1px solid #dfe3e6;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.formStyle3 {
+  border: none;
+  padding: 0;
+  width: 10ch;
+}
+
+.bg-tale {
+  background-color: #01536e;
+}
+
+.table td {
+  color: #212529 !important; /* Bootstrap default text color */
+  background-color: white !important;
+}
+
+.icon-css {
+  color: gray;
+  border: 1px solid gray;
+}
+
+/*
+BUTTON CLASS
+<button className="btn-press p-2 d-flex align-items-center text-white border-0 bg-tale rounded-2">
+   <i className="bx bx-plus fw-bold fs-5"></i>
+   <span className="ms-2 fw-bold me-2">
+   ADD RESUME
+   </span>
+   </button>
+   
+ICONS CLASS
+
+<button className=" btn-press p-2 d-flex align-items-center rounded-2 icon-css bg-white border-1">
+ <i className="bx bx-pencil fs-5"></i>
+</button>
+
+*/
+
+/*BHAKTI THEME.SCSS */
+
+/* RIGHT CONTENT */
+
+.staff-steps {
+  padding: 10px;
+  padding-left: 10px !important;
+}
+
+.staff-step {
+  padding: 11px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 6px;
+
+  &:hover {
+    background: #f1e9ff;
+  }
+
+  &.active {
+    background: #01536e;
+    color: #fff;
+  }
+}
+
+/* Card header */
+.add-staff-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.add-staff-card-header h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.add-staff-card-header .sub-text {
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Action buttons */
+.add-staff-actions {
+  display: flex;
+  gap: 10px;
+
+  .btn {
+    height: 38px;
+    padding: 0 16px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+/* Form labels */
+.add-staff-content label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6c757d;
+}
+
+/* Rounded inputs */
+.add-staff-content input,
+.add-staff-content select {
+  border-radius: 20px;
+  padding-left: 14px;
+  height: 38px;
+}
+
+/* Profile upload */
+.profile-upload {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  input[type="file"] {
+    max-width: 280px;
+  }
+
+  .preview-text {
+    font-size: 13px;
+    color: #01536e;
+    cursor: pointer;
+  }
+}
+
+/* CTC grid */
+.ctc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.roles-editor {
+  .ck.ck-editor {
+    border: none !important;
+    background: transparent;
+  }
+
+  /* Toolbar buttons */
+  .ck.ck-toolbar .ck-button,
+  .ck.ck-toolbar .ck-button svg {
+    color: #212529 !important;
+    fill: #212529 !important;
+  }
+
+  .ck.ck-toolbar .ck-button:hover {
+    background: #f1f1f1 !important;
+  }
+
+  .ck.ck-toolbar .ck-button.ck-on {
+    background: #e9ecef !important;
+  }
+
+  .ck.ck-toolbar .ck-button.ck-on svg {
+    fill: #212529 !important; /* FIXED: was white */
+  }
+
+  /* Editable area */
+  .ck.ck-editor__editable,
+  .ck.ck-editor__editable_inline {
+    background: #ffffff;
+    height: 120px !important;
+    min-height: 120px !important;
+    max-height: 120px !important;
+    overflow-y: auto !important;
+  }
+
+  .ck-content * {
+    color: #212529 !important;
+  }
+}
+
+/* ===== READ ONLY MODE STYLING ===== */
+
+/* Inputs & selects */
+input[readonly],
+textarea[readonly] {
+  background-color: #f5f7fa !important; /* light grey */
+  cursor: not-allowed;
+  color: #495057;
+}
+
+/* Reactstrap select when disabled (select doesn't support readonly) */
+select:disabled {
+  background-color: #f5f7fa !important;
+  cursor: not-allowed;
+}
+
+.page-loader {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.page-loader-spinner {
+  width: 80px;
+  height: 80px;
+  border: 6px solid transparent;
+  border-top: 6px solid #01536e;
+  border-bottom: 6px solid #01536e;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =============================== */
+/* FORCE FIX CHROME AUTOFILL COLOR */
+/* =============================== */
+
+:root {
+  --bs-body-color: black !important;
+}
