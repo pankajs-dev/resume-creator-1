@@ -1,0 +1,23 @@
+:root {
+  //topbar
+  --#{$prefix}heading-bg: #01536e;  //Pankaj Sharma
+  --#{$prefix}topbar-search-bg: #f3f3f9;
+  --#{$prefix}header-item-color: white;
+
+  --#{$prefix}boxed-body-bg: #ebebf4;
+
+  --#{$prefix}topnav-bg: white;
+  --#{$prefix}menu-item-color: rgb(87, 86, 86);
+  --#{$prefix}heading-dark-bg: white;
+
+  --#{$prefix}input-border-color: #{$gray-400};
+  --#{$prefix}input-focus-border-color: #{darken($gray-400, 10%)};
+  --#{$variable-prefix}form-check-input-border: #{rgba($black, 0.1)};
+
+  //footer
+  --#{$prefix}footer-bg: #f3f3f3ec;
+  --#{$prefix}footer-color: ;
+
+  --#{$prefix}custom-white: #{$white};
+  --#{$prefix}hr-border-color: #{gray-400};
+}

@@ -1,0 +1,19 @@
+.text-tale {
+  color: #01536e;
+}
+
+.text-red {
+  color: red;
+  border-color: red;
+}
+
+.bg-#f8f8fb {
+  background-color: #f8f8fb;
+}
+
+
+.text-mono {
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 20px;
+}
