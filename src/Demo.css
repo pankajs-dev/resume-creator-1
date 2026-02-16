@@ -1,0 +1,23 @@
+.preview-container {
+    height: 85vh;
+    overflow-y: auto;
+    border-left: 1px solid #eff2f7;
+}
+
+.resume-paper {
+    /* A4 Aspect Ratio Simulation */
+    aspect-ratio: 1 / 1.414;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    transform: scale(0.9); /* Adjust zoom level for small screens */
+    transform-origin: top center;
+}
+
+/* Hide scrollbar for cleaner look */
+.editor-sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+.editor-sidebar::-webkit-scrollbar-thumb {
+    background: #ced4da;
+    border-radius: 10px;
+}
